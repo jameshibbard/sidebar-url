@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Sidebar URL",
+  "description": "Displays current URL in sidebar",
+  "version": "1.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "54.0a1"
+    }
+  },
+
+  "sidebar_action": {
+    "default_icon": "icons/star.png",
+    "default_title" : "Annotator",
+    "default_panel": "sidebar/panel.html"
+  },
+
+  "permissions": ["tabs"]
+}
